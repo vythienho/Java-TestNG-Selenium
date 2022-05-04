@@ -1,7 +1,7 @@
-package annotations.inherited;
+package algorithm.annotations.inherited;
 
-import annotations.inherited.MyAnnotation;
-import annotations.inherited.Super;
+//https://www.educba.com/java-inherited/
+
 import java.lang.annotation.Annotation;
 import java.lang.reflect.AnnotatedElement;
 import java.lang.reflect.Method;
@@ -16,6 +16,7 @@ public class Demo extends Super
         Method m = obj.getMethod ("getstateinfo", new Class[]{});
         getstateinfo (m);
     }
+
     static void getstateinfo (AnnotatedElement e)
     {
         try

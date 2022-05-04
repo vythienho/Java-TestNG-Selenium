@@ -1,8 +1,6 @@
-package annotations.inherited;
+package algorithm.annotations.inherited;
 
 //https://www.educba.com/java-inherited/
-
-import annotations.inherited.MyAnnotation;
 
 @MyAnnotation (name = "Karnataka", code = "KA")
 public class Super
