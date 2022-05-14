@@ -18,7 +18,6 @@ public class AddBinaryStrings {
 		StringBuilder result = new StringBuilder("");
 
 		while (i >= 0 || j >= 0 || s == 1){
-			//System.out.println("a.charAt(i) = " + a.charAt(i) + ", b.charAt(j) = " + b.charAt(j));
 			s += (i >= 0)? a.charAt(i) - '0': 0;
 			s += (j >= 0)? b.charAt(j) - '0': 0;
 
@@ -39,7 +38,7 @@ public class AddBinaryStrings {
 	}
 
 	public static void main(String[] args){
-		addBinaryStrings ab = new addBinaryStrings();
+		AddBinaryStrings ab = new AddBinaryStrings();
 		//expect "110"
 		System.out.println(ab.addBinary("11", "1"));
 
