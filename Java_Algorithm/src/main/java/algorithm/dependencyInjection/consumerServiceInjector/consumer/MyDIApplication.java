@@ -1,10 +1,10 @@
-package algorithm.dependencyInjection.consumer;
+package algorithm.dependencyInjection.consumerServiceInjector.consumer;
 
 /**
  * __author__ = vyh@vmware.com
  */
 
-import algorithm.dependencyInjection.service.MessageService;
+import algorithm.dependencyInjection.consumerServiceInjector.consumer.service.MessageService;
 
 public class MyDIApplication implements Consumer{
 

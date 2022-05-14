@@ -1,19 +1,20 @@
-package algorithm.dependencyInjection.test;
+package algorithm.dependencyInjection.consumerServiceInjector.consumer.test;
 
 /**
  * __author__ = vyh@vmware.com
  *
  * https://www.journaldev.com/2394/java-dependency-injection-design-pattern-example-tutorial
  */
+import algorithm.dependencyInjection.consumerServiceInjector.consumer.injector.MessageServiceInjector;
+import algorithm.dependencyInjection.consumerServiceInjector.consumer.service.MessageService;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import algorithm.dependencyInjection.consumer.Consumer;
-import algorithm.dependencyInjection.consumer.MyDIApplication;
-import algorithm.dependencyInjection.service.MessageService;
+import algorithm.dependencyInjection.consumerServiceInjector.consumer.Consumer;
+import algorithm.dependencyInjection.consumerServiceInjector.consumer.MyDIApplication;
 //import algorithm.dependencyInjection.injector.EmailServiceInjector;
-import algorithm.dependencyInjection.injector.MessageServiceInjector;
+
 //import algorithm.dependencyInjection.injector.SMSServiceInjector;
 
 

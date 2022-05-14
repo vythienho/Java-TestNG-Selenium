@@ -1,4 +1,4 @@
-package algorithm.dependencyInjection.consumer;
+package algorithm.dependencyInjection.consumerServiceInjector.consumer;
 
 /**
  * __author__ = vyh@vmware.com

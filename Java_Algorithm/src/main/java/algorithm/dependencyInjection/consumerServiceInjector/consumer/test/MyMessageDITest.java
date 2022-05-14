@@ -1,4 +1,4 @@
-package algorithm.dependencyInjection.test;
+package algorithm.dependencyInjection.consumerServiceInjector.consumer.test;
 
 /**
  * __author__ = vyh@vmware.com
@@ -13,10 +13,10 @@ package algorithm.dependencyInjection.test;
  * 3. Injector classes that will initialize the services and then the consumer classes.
  */
 
-import algorithm.dependencyInjection.consumer.Consumer;
-import algorithm.dependencyInjection.injector.EmailServiceInjector;
-import algorithm.dependencyInjection.injector.MessageServiceInjector;
-import algorithm.dependencyInjection.injector.SMSServiceInjector;
+import algorithm.dependencyInjection.consumerServiceInjector.consumer.Consumer;
+import algorithm.dependencyInjection.consumerServiceInjector.consumer.injector.EmailServiceInjector;
+import algorithm.dependencyInjection.consumerServiceInjector.consumer.injector.MessageServiceInjector;
+import algorithm.dependencyInjection.consumerServiceInjector.consumer.injector.SMSServiceInjector;
 
 public class MyMessageDITest {
 	public static void main(String[] args) {
